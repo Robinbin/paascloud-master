@@ -10,7 +10,8 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>1.5.6.RELEASE</version>
+   	<version>1.5.10.RELEASE</version>
+    <!-- <version>2.0.0.RELEASE</version> -->
   </parent>
 
   <modules>
@@ -60,6 +61,7 @@
     <httpclientutil.version>1.0</httpclientutil.version>
     <feign.form.spring.version>3.0.3</feign.form.spring.version>
     <spring.version>4.3.11.RELEASE</spring.version>
+    <!-- <spring.version>5.0.4.RELEASE</spring.version> -->
     <fastjson.version>1.2.29</fastjson.version>
     <modelmapper.version>1.1.2</modelmapper.version>
     <rocketmq.version>4.1.0-incubating</rocketmq.version>
@@ -106,6 +108,7 @@
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-dependencies</artifactId>
         <version>Edgware.RELEASE</version>
+        <!-- <version>Finchley.M9</version> -->
         <type>pom</type>
         <scope>import</scope>
       </dependency>
